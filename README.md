@@ -15,7 +15,7 @@ $ export ERLANG_PATH=/usr/local/lib/erlang/usr/include
 # DLIB_PATH should be where you've installed dlib
 $ export DLIB_PATH=dlib-19.4
 
-/*  cc -fPIC \
+$ cc -fPIC \
   -I$ERLANG_PATH \
   -I$DLIB_PATH \
   -Wl,-undefined \
